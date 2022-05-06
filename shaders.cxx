@@ -38,8 +38,6 @@ Shader::Shader(const char* vertexPath, const char* fragmentPath) : ID{ 0U }
 	unsigned int vertex = 0U, fragment = 0U;
 	int success = 0;
 	char infoLog[512];
-
-	std::cout << "Hello world!\n";
 	   
 	// vertex Shader
 	vertex = glCreateShader(GL_VERTEX_SHADER);
