@@ -10,11 +10,11 @@
 const int width = 800, height = 600;
 
 const char* vertex_filenames[] = {
-	"/home/antoninleclercq/Desktop/opengl-glew/vertex_shader.vert"
+	"./vertex_shader.vert"
 };
 
 const char* fragment_filenames[] = {
-	"/home/antoninleclercq/Desktop/opengl-glew/fragment_shader.frag"
+	"./fragment_shader.frag"
 };
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
